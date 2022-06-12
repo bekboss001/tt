@@ -1,0 +1,88 @@
+/* ОБНУЛЕНИЕ СТИЛЕЙ */
+@import url("https://fonts.googleapis.com/css?family=Roboto:regular,500,700,900&display=swap");
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	box-sizing: border-box;
+}
+
+li {
+	list-style: none;
+}
+
+a,
+a:visited {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+
+img {
+	vertical-align: top;
+}
+
+html,
+body {
+	height: 100%;
+}
+
+html {
+	font-size: 16px;
+	/* по умолчанию */
+}
+
+body {
+    font-family: Roboto, "sans-serif";
+	font-size: 16px;
+	line-height: 1;
+	overflow-x: hidden;
+}
+
+.wrapper {
+	min-height: 100%;
+	padding: 100px;
+    font-family: "Roboto";
+    background-color: rgb(210, 221, 223);
+}
+
+.answers {
+}
+.answers__container {
+    border-radius: 15px;
+    border: 1px solid darkgoldenrod;
+    margin: 0px 20% 0px 20%;
+    padding: 30px;
+    background-color: rgb(166, 222, 240);
+    line-height: 25px;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	min-width: 400px;
+}
+.answers__question {
+    font-size: 20px;
+    font-style: bold;
+    padding: 10px 0px 10px 0px;
+	color: rgb(121, 25, 25);
+
+}
+.answer__answer {
+    font-style: italic;
+    padding: 0px 0px 0px 15px;
+    text-decoration: underline;
+}
